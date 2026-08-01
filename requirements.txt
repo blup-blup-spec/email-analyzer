@@ -1,0 +1,13 @@
+python-dotenv>=1.0.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+iocextract>=1.16.1
+transformers>=4.40.0
+torch>=2.1.0
+scikit-learn>=1.4.0
+joblib>=1.3.0
+groq>=0.5.0
+python-magic-bin>=0.4.14
+fpdf2>=2.8.0
+reportlab>=4.1.0
+colorama>=0.4.6

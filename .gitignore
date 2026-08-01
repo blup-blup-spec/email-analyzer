@@ -1,0 +1,49 @@
+# ── .gitignore for Email Threat Analyzer ──
+
+# API keys — NEVER commit these
+.env
+api.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# ML model files (too large for git)
+models/
+
+# Application Output and Data
+output/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Reports (generated output)
+reports/*.pdf
+
+# Datasets (too large for git)
+archive/
+archive_2/
+data/*.csv
+
+# Colab outputs
+training_output/
+logs/
+*.zip

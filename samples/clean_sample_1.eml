@@ -1,0 +1,39 @@
+MIME-Version: 1.0
+From: Sarah Johnson <sarah.johnson@company.com>
+To: team-leads@company.com
+Subject: Q3 Financial Report - Board Meeting Thursday
+Date: Tue, 14 Jan 2025 14:22:00 -0500
+Message-ID: <genuine-msg-003@company.com>
+Authentication-Results: mx.company.com;
+    spf=pass smtp.mailfrom=company.com;
+    dkim=pass header.d=company.com;
+    dmarc=pass header.from=company.com
+Received: from mail.company.com (mail.company.com [192.168.1.10])
+    by mx.company.com with ESMTPS; Tue, 14 Jan 2025 14:22:00 -0500
+Received: from sarahs-laptop.company.local (10.0.1.45)
+    by mail.company.com with ESMTP; Tue, 14 Jan 2025 14:21:55 -0500
+Content-Type: text/plain; charset="UTF-8"
+
+Hi team,
+
+Please find the Q3 financial report ready for your review before the board meeting this Thursday at 2pm in Conference Room B.
+
+Key highlights:
+- Revenue increased 12% QoQ
+- Customer acquisition costs decreased by 8%
+- New enterprise contracts signed: 14
+- Net retention rate: 118%
+
+I've uploaded the full report to our shared drive:
+https://drive.company.com/shared/q3-report-2025
+
+If you have any questions or need additional data points for your presentations, please let me know by Wednesday EOD.
+
+Also, reminder that the team lunch is scheduled for Friday at noon. Please RSVP on the calendar invite.
+
+Best regards,
+Sarah Johnson
+VP of Finance
+Company Inc.
+sarah.johnson@company.com
++1 (555) 123-4567

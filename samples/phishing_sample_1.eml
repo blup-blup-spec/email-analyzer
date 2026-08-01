@@ -1,0 +1,72 @@
+MIME-Version: 1.0
+From: "PayPal Security" <security@paypa1-secure.com>
+To: victim@company.com
+Subject: URGENT: Your PayPal Account Has Been Limited
+Date: Thu, 15 Jan 2025 10:30:00 +0000
+Reply-To: collector@freemail-service.net
+Message-ID: <fake-msg-001@paypa1-secure.com>
+X-Mailer: Mass Mailer Pro 3.0
+Authentication-Results: mx.google.com;
+    spf=fail (sender IP is 185.234.12.1) smtp.mailfrom=paypa1-secure.com;
+    dkim=fail header.d=paypa1-secure.com;
+    dmarc=fail (p=REJECT) header.from=paypa1-secure.com
+Received: from mail-relay.paypa1-secure.com (unknown [185.234.12.1])
+    by mx.google.com with SMTP; Thu, 15 Jan 2025 10:30:00 +0000
+Received: from localhost (unknown [10.0.0.5])
+    by mail-relay.paypa1-secure.com with ESMTP; Thu, 15 Jan 2025 10:29:55 +0000
+Content-Type: multipart/alternative; boundary="----=_Part_001"
+
+------=_Part_001
+Content-Type: text/plain; charset="UTF-8"
+
+Dear Valued Customer,
+
+We have detected unusual activity on your PayPal account. Your account has been temporarily limited due to suspicious login attempts from an unrecognized device.
+
+To restore full access to your account, you must verify your identity immediately by clicking the link below:
+
+VERIFY NOW: http://paypa1-secure.com/verify?id=victim@company.com&token=a1b2c3d4
+
+If you do not verify your account within 24 hours, your account will be permanently suspended and all funds will be frozen.
+
+Please enter your:
+- Email address
+- Password
+- Credit card number
+- Social security number (for identity verification)
+
+This is an automated security message. Do not reply to this email.
+
+Sincerely,
+PayPal Security Team
+PayPal Inc.
+© 2025 PayPal. All rights reserved.
+
+------=_Part_001
+Content-Type: text/html; charset="UTF-8"
+
+<html>
+<body style="font-family: Arial, sans-serif; background: #f5f5f5; padding: 20px;">
+<div style="max-width: 600px; margin: auto; background: white; padding: 30px; border-radius: 8px;">
+<img src="http://paypa1-secure.com/logo.png" alt="PayPal" width="150">
+<h2 style="color: #003087;">Account Security Alert</h2>
+<p>Dear Valued Customer,</p>
+<p>We have detected <strong>unusual activity</strong> on your PayPal account. Your account has been temporarily limited due to suspicious login attempts from an unrecognized device.</p>
+<p>To restore full access to your account, you must <strong>verify your identity immediately</strong>:</p>
+<p style="text-align: center;">
+<a href="http://paypa1-secure.com/verify?id=victim@company.com&token=a1b2c3d4" style="background: #003087; color: white; padding: 12px 30px; text-decoration: none; border-radius: 5px; font-size: 16px;">VERIFY MY ACCOUNT</a>
+</p>
+<p style="color: red;"><strong>⚠️ WARNING:</strong> If you do not verify within 24 hours, your account will be permanently suspended.</p>
+<p>Please have ready:</p>
+<ul>
+<li>Your email and password</li>
+<li>Credit card number</li>
+<li>Social security number</li>
+</ul>
+<hr>
+<p style="font-size: 11px; color: #999;">This is an automated message from PayPal Security. Do not reply. <br>
+© 2025 PayPal Inc. | <a href="http://paypa1-secure.com/privacy">Privacy Policy</a></p>
+</div>
+</body>
+</html>
+------=_Part_001--
